@@ -23,3 +23,4 @@ npm run build --report
 ```
 $ npm install axios bulma --save
 ```
+
