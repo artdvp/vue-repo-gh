@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const API = axios.create({
   headers: {
-    Authorization: `token ec9b782301c06012910a3b9bf2470f70ab29cc37`
+    Authorization: `token 81a8c89c50901b7813f76bf20fb466d79757c205`
   }
 })
 
