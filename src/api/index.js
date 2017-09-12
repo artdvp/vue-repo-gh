@@ -1,10 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({
-  headers: {
-    Authorization: `token 81a8c89c50901b7813f76bf20fb466d79757c205`
-  }
-})
+const API = axios.create({})
 
 function fetchGithubRepo (path) {
   let result = API.get(`https://api.github.com/repos/${path}`)
